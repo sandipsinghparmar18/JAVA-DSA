@@ -43,6 +43,16 @@ public class java003 {
             System.out.println();
         }
     }
+    public static void zeroOneTraingle(int n){
+        int k=1;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(k+" ");
+                k= k==0 ? 1:0;
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter number to print pattern : ");
@@ -50,6 +60,7 @@ public class java003 {
         //hollowRectangle(n);
         //invertedAndRotatedHalfPyramid(n);
         //invertedAndHalfPyramid(n);
-        floydsTraingle(n);
+        //floydsTraingle(n);
+        zeroOneTraingle(n);
     }
 }
