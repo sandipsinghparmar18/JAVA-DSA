@@ -18,5 +18,6 @@ public class java005 {
         System.out.println("Enter String to lowercase vowels : ");
         String str=sc.nextLine();
         System.out.println(findLowercaseVowel(str));
+        sc.close();
     }
 }
